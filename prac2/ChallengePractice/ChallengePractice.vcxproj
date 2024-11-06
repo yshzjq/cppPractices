@@ -24,6 +24,7 @@
     <ProjectGuid>{0da4b2c1-4008-4633-9517-adbeb1700f80}</ProjectGuid>
     <RootNamespace>ChallengePractice</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>2-Chanllenge</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
