@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GIt\\cppPractices\\prac3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{571CEB91-068F-4CFA-92F1-9D475969071D}|3-4\\3-4.vcxproj|D:\\GIt\\cppPractices\\prac3\\3-4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{571CEB91-068F-4CFA-92F1-9D475969071D}|3-4\\3-4.vcxproj|solutionrelative:3-4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFEE2681-4821-4CDA-B8AD-E898A1942B01}|3-3\\3-3.vcxproj|D:\\GIt\\cppPractices\\prac3\\3-3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFEE2681-4821-4CDA-B8AD-E898A1942B01}|3-3\\3-3.vcxproj|solutionrelative:3-3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738AD0DF-28C8-4265-AC3E-1A18953C9298}|3-1\\3-1.vcxproj|D:\\GIt\\cppPractices\\prac3\\3-1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{738AD0DF-28C8-4265-AC3E-1A18953C9298}|3-1\\3-1.vcxproj|solutionrelative:3-1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39C2347-35E5-4C82-9FD1-745F871EC234}|3-2\\3-2.vcxproj|D:\\GIt\\cppPractices\\prac3\\3-2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D39C2347-35E5-4C82-9FD1-745F871EC234}|3-2\\3-2.vcxproj|solutionrelative:3-2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\GIt\\cppPractices\\prac3\\3-4\\main.cpp",
+              "RelativeDocumentMoniker": "3-4\\main.cpp",
+              "ToolTip": "D:\\GIt\\cppPractices\\prac3\\3-4\\main.cpp",
+              "RelativeToolTip": "3-4\\main.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-10T11:17:59.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\GIt\\cppPractices\\prac3\\3-3\\main.cpp",
+              "RelativeDocumentMoniker": "3-3\\main.cpp",
+              "ToolTip": "D:\\GIt\\cppPractices\\prac3\\3-3\\main.cpp",
+              "RelativeToolTip": "3-3\\main.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAxwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-10T10:51:39.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\GIt\\cppPractices\\prac3\\3-2\\main.cpp",
+              "RelativeDocumentMoniker": "3-2\\main.cpp",
+              "ToolTip": "D:\\GIt\\cppPractices\\prac3\\3-2\\main.cpp",
+              "RelativeToolTip": "3-2\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-09T16:19:51.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\GIt\\cppPractices\\prac3\\3-1\\main.cpp",
+              "RelativeDocumentMoniker": "3-1\\main.cpp",
+              "ToolTip": "D:\\GIt\\cppPractices\\prac3\\3-1\\main.cpp",
+              "RelativeToolTip": "3-1\\main.cpp",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-09T16:15:36.533Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
