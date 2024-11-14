@@ -54,8 +54,6 @@ void CoffeeMachine::show()
 	cout << "커피 머신 상태, 커피:" << coffee << '\t' << "물:" << water << '\t' << "설탕:" << sugar << '\n';
 }
 
-
-
 int main()
 {
 	CoffeeMachine java(5, 10, 3);
