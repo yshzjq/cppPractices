@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ABACEE9F-CC66-4BAF-8BE2-8E7774689E25}|4-3\\4-3.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\4-3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ABACEE9F-CC66-4BAF-8BE2-8E7774689E25}|4-3\\4-3.vcxproj|solutionrelative:4-3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B22CFEB-CE07-49CD-8DF6-7C0FD98A4A17}|4-2\\4-2.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\4-2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1B22CFEB-CE07-49CD-8DF6-7C0FD98A4A17}|4-2\\4-2.vcxproj|solutionrelative:4-2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7508234-8C69-4184-981A-BB89FAAB967E}|4-1\\4-1.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\4-1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F7508234-8C69-4184-981A-BB89FAAB967E}|4-1\\4-1.vcxproj|solutionrelative:4-1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33DDF9AB-7A0E-473D-944A-C45C898AAD78}|Challenge\\Challenge.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\Challenge\\WordGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{33DDF9AB-7A0E-473D-944A-C45C898AAD78}|Challenge\\Challenge.vcxproj|solutionrelative:Challenge\\WordGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -30,11 +42,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\4-3\\main.cpp",
+              "RelativeDocumentMoniker": "4-3\\main.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\4-3\\main.cpp",
+              "RelativeToolTip": "4-3\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-15T09:18:29.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\4-2\\main.cpp",
+              "RelativeDocumentMoniker": "4-2\\main.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\4-2\\main.cpp",
+              "RelativeToolTip": "4-2\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-15T09:08:06.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\4-1\\main.cpp",
+              "RelativeDocumentMoniker": "4-1\\main.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\4-1\\main.cpp",
+              "RelativeToolTip": "4-1\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-15T09:07:34.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\Challenge\\main.cpp",
               "RelativeDocumentMoniker": "Challenge\\main.cpp",
@@ -42,12 +101,11 @@
               "RelativeToolTip": "Challenge\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-14T10:47:43.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T10:47:43.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Player.h",
               "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\Challenge\\Player.h",
               "RelativeDocumentMoniker": "Challenge\\Player.h",
@@ -55,12 +113,11 @@
               "RelativeToolTip": "Challenge\\Player.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-14T10:57:05.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T10:57:05.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Player.cpp",
               "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\Challenge\\Player.cpp",
               "RelativeDocumentMoniker": "Challenge\\Player.cpp",
@@ -68,12 +125,11 @@
               "RelativeToolTip": "Challenge\\Player.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-14T11:09:06.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T11:09:06.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "WordGame.h",
               "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\Challenge\\WordGame.h",
               "RelativeDocumentMoniker": "Challenge\\WordGame.h",
@@ -81,12 +137,11 @@
               "RelativeToolTip": "Challenge\\WordGame.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-14T10:56:37.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T10:56:37.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "WordGame.cpp",
               "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac4\\Challenge\\WordGame.cpp",
               "RelativeDocumentMoniker": "Challenge\\WordGame.cpp",
