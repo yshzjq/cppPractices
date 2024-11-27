@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\work\\C\u002B\u002B\\cppPractices\\prac6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4724E98-F2E4-43E4-89DD-359C339A53E6}|6-2\\6-2.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac6\\6-2\\6-2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C4724E98-F2E4-43E4-89DD-359C339A53E6}|6-2\\6-2.vcxproj|solutionrelative:6-2\\6-2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9813384E-BBCD-412A-9B76-6BCDD2F81508}|6-8\\6-8.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac6\\6-8\\6-8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9813384E-BBCD-412A-9B76-6BCDD2F81508}|6-8\\6-8.vcxproj|solutionrelative:6-8\\6-8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA9B006-4D3E-4D63-9A32-A56F5C7A2386}|6-9\\6-9.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac6\\6-9\\6-9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0DA9B006-4D3E-4D63-9A32-A56F5C7A2386}|6-9\\6-9.vcxproj|solutionrelative:6-9\\6-9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "6-2.cpp",
-              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac6\\6-2\\6-2.cpp",
-              "RelativeDocumentMoniker": "6-2\\6-2.cpp",
-              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac6\\6-2\\6-2.cpp",
-              "RelativeToolTip": "6-2\\6-2.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Title": "6-8.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac6\\6-8\\6-8.cpp",
+              "RelativeDocumentMoniker": "6-8\\6-8.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac6\\6-8\\6-8.cpp",
+              "RelativeToolTip": "6-8\\6-8.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAcwDoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-25T11:48:18.61Z",
+              "WhenOpened": "2024-11-27T02:02:21.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "6-9.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac6\\6-9\\6-9.cpp",
+              "RelativeDocumentMoniker": "6-9\\6-9.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac6\\6-9\\6-9.cpp",
+              "RelativeToolTip": "6-9\\6-9.cpp",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwCMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T02:46:55.52Z",
               "EditorCaption": ""
             }
           ]
