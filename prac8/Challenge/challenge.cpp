@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -11,6 +12,7 @@ class Product
 
 	string type;
 public:
+	Product() {};
 	Product(int id, string des, string producter, int price, string type)
 	{
 		this->id = id;
@@ -23,7 +25,7 @@ public:
 
 	void ProductShow()
 	{
-		cout << "---- 상품ID : " + id << '\n';
+		cout << "---- 상품ID : " << id << '\n';
 		cout << "상품설명 : " << des << '\n';
 		cout << "생산자 : " << producter << '\n';
 		cout << "가격 : " << price << '\n';
@@ -47,7 +49,27 @@ public:
 		this->writer = writer;
 		this->title = title;
 	}
+	void Bookshow()
+	{
+		cout << "책제목 : " << title << '\n';
+		cout << "저자 : " << writer << '\n';
+		cout << "ISBN : " << ISBN << '\n';
+	}
 
+	int getISBN()
+	{
+		return ISBN;
+	}
+
+	string getWriter()
+	{
+		return writer;
+	}
+
+	string getTitle()
+	{
+		return title;
+	}
 };
 
 class CompactDisc : public Product
@@ -55,6 +77,7 @@ class CompactDisc : public Product
 	string title;
 	string singer_name;
 public:
+	CompactDisc() {};
 	CompactDisc(int id, string des, string producter, int price, string title, string singer_name) : Product(id,des,producter,price,"CD")
 	{
 		this->title = title;
@@ -76,13 +99,22 @@ public:
 	{
 		this->language = language;
 	}
+
+	void CBookshow()
+	{
+		cout << "책제목 : " << getTitle() << '\n';
+		cout << "저자 : " << getWriter() << '\n';
+		cout << "언어 : " << language << '\n';
+		cout << "ISBN : " << getISBN() << '\n';
+	}
 };
 
 int main()
 {
 	int idx = 0;
 
-	Product* product[100];
+	Product* product[100] = {};
+
 
 	cout << "***** 상품 관리 프로그램을 작동합니다. *****\n";
 
@@ -96,7 +128,7 @@ int main()
 		{
 			cout << "상품 종류 책(1), 음악CD(2), 회화책(3) ? ";
 			cin >> n;
-			
+			cin.ignore();
 			string des;
 			string producter;
 			int price;
@@ -106,68 +138,77 @@ int main()
 			string singer_name;
 			string language;
 
+			
+			
+
+
 			cout << "상품설명>>";
-			cin >> des;
+			getline(cin, des, '\n');
 			cout << "생산자>>";
-			cin >> producter;
+			getline(cin, producter, '\n');
+
 			cout << "가격>>";
 			cin >> price;
+			cin.ignore();
+			
 
 			if (n == 2)
 			{
 				cout << "앨범제목>>";
-				cin >> title;
+				getline(cin, title, '\n');
 				cout << "가수>>";
-				cin >> singer_name;
+				getline(cin, singer_name, '\n');
 
-				CompactDisc cd = CompactDisc(idx, des, producter, price, title, singer_name);
-
-				product[idx] = (Product*)&cd;
+				CompactDisc* cd = new CompactDisc(idx, des, producter, price, title, singer_name);
+				product[idx] = (Product*)cd;
 			}
 			else
 			{
 				cout << "책제목>>";
-				cin >> title;
+				getline(cin, title, '\n');
 				cout << "저자>>";
-				cin >> writer;
+				getline(cin, writer, '\n');
 				if (n == 3)
 				{
 					cout << "언어>>";
-					cin >> language;
+					getline(cin, language, '\n');
 				}
 				cout << "ISBN>>";
 				cin >> ISBN;
 
 				if (n == 3)
 				{
-					ConversationBook cbook = ConversationBook(idx, des, producter, price,ISBN, title, writer, language);
-					product[idx] = (Product*)&cbook;
+					ConversationBook* cbook = new ConversationBook(idx, des, producter, price,ISBN, title, writer, language);
+					product[idx] = cbook;
 				}
-				else if (n == 2)
+				else if (n == 1)
 				{
-					Book book = Book(idx, des, producter, price, ISBN, title, writer);
-					product[idx] = (Product*)&book;
+					Book* book = new Book(idx, des, producter, price, ISBN, title, writer);
+					product[idx] = book;
 				}
 			}
+			idx++;
 		}
 		else if (n == 2) // 모든 상품 조회
 		{
 			for (int i = 0; i < idx; i++)
 			{
-				product[idx]->ProductShow();
+				product[i]->ProductShow();
 
-				if (product[idx]->getType() == "CD")
+				if (product[i]->getType() == "CD")
 				{
-					CompactDisc* cd = (CompactDisc*)product[idx];
+					CompactDisc* cd = (CompactDisc*)product[i];
 					cd->CDshow();
 				}
-				else if (product[idx]->getType() == "Book")
+				else if (product[i]->getType() == "Book")
 				{
-
+					Book* book = (Book*)product[i];
+					book->Bookshow();
 				}
-				else if (product[idx]->getType() == "CBook")
+				else if (product[i]->getType() == "CBook")
 				{
-
+					ConversationBook* book = (ConversationBook*)product[i];
+					book->CBookshow();
 				}
 
 			}
@@ -177,7 +218,7 @@ int main()
 			break;
 		}
 
-		idx++;
+		
 	}
 
 
