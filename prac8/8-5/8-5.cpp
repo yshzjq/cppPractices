@@ -17,17 +17,37 @@ protected:
 	int getCapacity() { return capacity; }
 };
 
-class MyQueue : virtual BaseArray {
-
+class MyQueue : private BaseArray {
+	int idx;
+	int front;
 public:
-	MyQueue(int capacity) : BaseArray(capacity) {};
+	MyQueue(int capacity) : BaseArray(capacity) { idx = front = 0; }
 
-	void enquence(int n)
+	void enqueue(int n)
 	{
-		void put()
+		put(idx, n);
+		idx++;
 	};
 
-}
+	int capacity()
+	{
+		return getCapacity();
+	}
+
+	int length()
+	{
+		return idx - front;
+	}
+
+	int dequeue()
+	{
+		if (idx != front)
+		{
+			return get(front++);
+		}
+	}
+
+};
 
 
 int main()

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <queue>
 
 using namespace std;
 
@@ -33,7 +34,7 @@ public:
 
 	void setColor(string color) { this->color = color; }
 
-	void show() { cout << color << "색으로 (" << getX() << ',' << getY() << ")에 위치한점입니다."; }
+	void show() { cout << color << "색으로 (" << getX() << ',' << getY() << ")에 위치한점입니다.\n"; }
 };
 
 int main()

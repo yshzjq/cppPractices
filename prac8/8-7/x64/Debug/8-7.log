@@ -1,0 +1,2 @@
+﻿  8-7.cpp
+D:\work\C++\cppPractices\prac8\8-7\8-7.cpp(22,1): error C4716: 'BaseMemory::memorywrite': 값을 반환해야 합니다.
