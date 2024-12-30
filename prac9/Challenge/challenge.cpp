@@ -1,6 +1,10 @@
 #include <iostream>
+#include <random>
 
 using namespace std;
+
+static int xSize = 10;
+static int ySize = 20;
 
 class GameObject { // 추상클래스
 protected:
@@ -26,112 +30,183 @@ public:
 
 class Human : public GameObject
 {
-	char shape;
 public:
+	Human(int startX, int startY, int distance) : GameObject(startX, startY, distance) {};
 
-	Human(int x,int y,int dis,char shape) : GameObject(x,y,dis) { // 초기위치와 이동거리 설정
-		this->shape = shape;
-	}
-
-	virtual void move() 
+	void move() override
 	{
 		char command;
 
-		cout << "왼쪽(a), 아래(s), 위여), 오른쪽 (f) >> ";
+		cout << "왼쪽(a), 아래(s), 위(d), 오른쪽(f) >> ";
 
 		cin >> command;
-	
-		switch (command)
-		{
-			case 'a': 
-			{ 
-				x--; 
-				break;
-			}
-			case 'd': 
-			{
-				x++;
-				break;
-			}
-			case 'w': 
-			{
-				y++;
-				break;
-			}
-			case 's':
-			{
-				y--;
-				break;
-			}
+
+		if (command == 'a') {
+			if (y > 0) y -= distance;
 		}
-	};
-	virtual char getShape() { return shape; }
+		if (command == 's') {
+			if (xSize - 1 > x) x += distance;
+		}
+		if (command == 'd') {
+			if (ySize - 1 > y) y += distance;
+		}
+		if (command == 'w') {
+			if (x > 0) x -= distance;
+		}
+
+		cout << '\n';
+	}
+
+	char getShape() { return 'H'; }
 };
 
-class Field {
 
-	char** field;
-
-	int xsize;
-	int ysize;
+class Monster : public GameObject
+{
 public:
-	Field(int x, int y) 
-	{ 
-		this->xsize = x;
-		this->ysize = y; 
+	Monster(int startX, int startY, int distance) : GameObject(startX, startY, distance) {};
 
-		field = new char*[x];
+	void move() override
+	{
+		random_device rd;
+		mt19937 gen(rd());
+		uniform_int_distribution<> dis(0, 3);
 
-		for (int i = 0; i < x; i++)
+		switch (dis(gen))
 		{
-			field[i] = new char[y];
-		}
-
-		for (int i = 0; i < x; i++)
-		{
-			for (int j = 0; j < y; j++)
+			case 0: 
 			{
-				field[i][j] = '-';
+				y -= distance;
+				break;
+			}
+			case 1:
+			{
+				x += distance;
+				break;
+			}
+			case 2: {
+				y += distance;
+				break;
+			}
+			case 3: {
+				x -= distance;
+				break;
 			}
 		}
+
+		if (y < 0) y = 0;
+		else if (y >= ySize) y = ySize - 1;
+
+		if (x < 0) x = 0;
+		else if (x >= xSize) x = xSize - 1;
 	}
 
-	void add(GameObject* gameObject)
+	char getShape() { return 'M'; }
+};
+
+class Food : public GameObject
+{
+public:
+	Food(int startX, int startY, int distance) : GameObject(startX, startY, distance) {};
+
+	void move() override { return; }
+	char getShape() { return '@'; }
+};
+
+int main()
+{
+	char** field;
+
+	Human* human = new Human(0, 0, 1);
+	Monster* monster = new Monster(5, 5, 2);
+	Food* food = new Food(9, 9, 0);
+
+	field = new char* [ySize];
+
+	for (int i = 0; i < xSize; i++)
 	{
-		field[gameObject->getX()][gameObject->getY()] = gameObject->getShape();
+		field[i] = new char[xSize];
 	}
 
-	void move(GameObject* gameObject)
+	for (int i = 0; i < xSize; i++)
 	{
-		if(gameObject->getX() == -1)
-	}
-
-	void show()
-	{
-		for (int i = 0; i < x; i++)
+		for (int j = 0; j < ySize; j++)
 		{
-			for (int j = 0; j < y; j++)
+			field[i][j] = '-';
+		}
+	}
+
+	field[human->getX()][human->getY()] = human->getShape();
+	field[monster->getX()][monster->getY()] = monster->getShape();
+	field[food->getX()][food->getY()] = food->getShape();
+
+
+	cout << "** Human의 Food 먹기 게임을 시작합니다. ** \n\n";
+
+	while (true)
+	{
+		for (int i = 0; i < xSize; i++)
+		{
+			for (int j = 0; j < ySize; j++)
 			{
 				cout << field[i][j];
 			}
 			cout << '\n';
 		}
-	}
-};
 
-int main()
-{
-	Field field(10, 20);
+		for (int i = 0; i < xSize; i++)
+		{
+			for (int j = 0; j < ySize; j++)
+			{
+				field[i][j] = '-';
+			}
+		}
 
-	GameObject* human = new Human(0, 0, 1, 'H');
-	field.add(human);
-
-	field.show();
-
-	while (true)
-	{
 		human->move();
+		field[human->getX()][human->getY()] = human->getShape();
 
-		field.show();
+		monster->move();
+		field[monster->getX()][monster->getY()] = monster->getShape();
+
+		if (human->collide(food))
+		{
+			for (int i = 0; i < xSize; i++)
+			{
+				for (int j = 0; j < ySize; j++)
+				{
+					cout << field[i][j];
+				}
+				cout << '\n';
+			}
+			cout << "Human is Winner!!\n";
+			break;
+		}
+
+		if (monster->collide(human) || monster->collide(food))
+		{
+			for (int i = 0; i < xSize; i++)
+			{
+				for (int j = 0; j < ySize; j++)
+				{
+					cout << field[i][j];
+				}
+				cout << '\n';
+			}
+			cout << "Monster is Winner!!\n";
+			break;
+		}
+
+		
+
+		field[food->getX()][food->getY()] = food->getShape();
+		field[monster->getX()][monster->getY()] = monster->getShape();
+		field[human->getX()][human->getY()] = human->getShape();
+
 	}
+
+	delete[] field;
+
+	delete food;
+	delete monster;
+	delete human;
 }

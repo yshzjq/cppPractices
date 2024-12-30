@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CPP Problem Solution\\Chapter01\\prac1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{098DBD46-7820-4A90-8CA8-98C711BA08B5}|1-4\\1-4.vcxproj|D:\\CPP Problem Solution\\Chapter01\\prac1\\1-4\\1-4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{098DBD46-7820-4A90-8CA8-98C711BA08B5}|1-4\\1-4.vcxproj|solutionrelative:1-4\\1-4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EEE83A-4B8E-4018-B68A-BD7B58C16061}|1-2\\1-2.vcxproj|D:\\CPP Problem Solution\\Chapter01\\prac1\\1-2\\me.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8EEE83A-4B8E-4018-B68A-BD7B58C16061}|1-2\\1-2.vcxproj|solutionrelative:1-2\\me.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260AE845-778B-465A-8789-6EFB30DDD213}|1-3\\1-3.vcxproj|D:\\CPP Problem Solution\\Chapter01\\prac1\\1-3\\1-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{260AE845-778B-465A-8789-6EFB30DDD213}|1-3\\1-3.vcxproj|solutionrelative:1-3\\1-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8482D9D-FC0D-4584-87D9-133A3CFFD46B}|1-1\\1-1.vcxproj|D:\\CPP Problem Solution\\Chapter01\\prac1\\1-1\\name.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8482D9D-FC0D-4584-87D9-133A3CFFD46B}|1-1\\1-1.vcxproj|solutionrelative:1-1\\name.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "1-4.cpp",
+              "DocumentMoniker": "D:\\CPP Problem Solution\\Chapter01\\prac1\\1-4\\1-4.cpp",
+              "RelativeDocumentMoniker": "1-4\\1-4.cpp",
+              "ToolTip": "D:\\CPP Problem Solution\\Chapter01\\prac1\\1-4\\1-4.cpp",
+              "RelativeToolTip": "1-4\\1-4.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T05:02:13.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "1-3.cpp",
+              "DocumentMoniker": "D:\\CPP Problem Solution\\Chapter01\\prac1\\1-3\\1-3.cpp",
+              "RelativeDocumentMoniker": "1-3\\1-3.cpp",
+              "ToolTip": "D:\\CPP Problem Solution\\Chapter01\\prac1\\1-3\\1-3.cpp",
+              "RelativeToolTip": "1-3\\1-3.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T04:47:35.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "me.cpp",
+              "DocumentMoniker": "D:\\CPP Problem Solution\\Chapter01\\prac1\\1-2\\me.cpp",
+              "RelativeDocumentMoniker": "1-2\\me.cpp",
+              "ToolTip": "D:\\CPP Problem Solution\\Chapter01\\prac1\\1-2\\me.cpp",
+              "RelativeToolTip": "1-2\\me.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T04:43:20.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "name.cpp",
+              "DocumentMoniker": "D:\\CPP Problem Solution\\Chapter01\\prac1\\1-1\\name.cpp",
+              "RelativeDocumentMoniker": "1-1\\name.cpp",
+              "ToolTip": "D:\\CPP Problem Solution\\Chapter01\\prac1\\1-1\\name.cpp",
+              "RelativeToolTip": "1-1\\name.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T04:42:39.424Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

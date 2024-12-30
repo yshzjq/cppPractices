@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA890EEA-DDEA-4C0C-83B1-2CF20673443A}|9-9\\9-9.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-9\\9-9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA890EEA-DDEA-4C0C-83B1-2CF20673443A}|9-9\\9-9.vcxproj|solutionrelative:9-9\\9-9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{324BFDF8-1851-438A-A8E5-E54BCB7C006F}|9-8\\9-8.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-8\\9-8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{324BFDF8-1851-438A-A8E5-E54BCB7C006F}|9-8\\9-8.vcxproj|solutionrelative:9-8\\9-8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D94D0CC-B707-4252-A4F9-F01FBB6BB253}|9-7\\9-7.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-7\\9-7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D94D0CC-B707-4252-A4F9-F01FBB6BB253}|9-7\\9-7.vcxproj|solutionrelative:9-7\\9-7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9171E38D-C764-42E9-B44D-1C80C9B2A760}|9-6\\9-6.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-6\\9-6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9171E38D-C764-42E9-B44D-1C80C9B2A760}|9-6\\9-6.vcxproj|solutionrelative:9-6\\9-6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B58EDDB5-117A-4779-AFE5-8147F2DB249C}|Challenge\\Challenge.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\Challenge\\challenge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B58EDDB5-117A-4779-AFE5-8147F2DB249C}|Challenge\\Challenge.vcxproj|solutionrelative:Challenge\\challenge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3556F-0E46-448F-9EFF-71528375F4FB}|9-5\\9-5.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-5\\9-5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B9F3556F-0E46-448F-9EFF-71528375F4FB}|9-5\\9-5.vcxproj|solutionrelative:9-5\\9-5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE0F78F-510B-4C52-BE7C-D34D10817B4F}|9-4\\9-4.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-4\\9-4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7DE0F78F-510B-4C52-BE7C-D34D10817B4F}|9-4\\9-4.vcxproj|solutionrelative:9-4\\9-4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFABEEFD-08E8-4F71-803D-B7FDEAC136A8}|9-3\\9-3.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-3\\9-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DFABEEFD-08E8-4F71-803D-B7FDEAC136A8}|9-3\\9-3.vcxproj|solutionrelative:9-3\\9-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDCB291-0443-4424-9656-7EB2E82E26FD}|9-2\\9-2.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-2\\9-2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEDCB291-0443-4424-9656-7EB2E82E26FD}|9-2\\9-2.vcxproj|solutionrelative:9-2\\9-2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BCF0547-0EFF-4706-84E0-38D76EC53730}|9-1\\9-1.vcxproj|D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-1\\9-1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3BCF0547-0EFF-4706-84E0-38D76EC53730}|9-1\\9-1.vcxproj|solutionrelative:9-1\\9-1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,12 +63,129 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "9-9.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-9\\9-9.cpp",
+              "RelativeDocumentMoniker": "9-9\\9-9.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-9\\9-9.cpp*",
+              "RelativeToolTip": "9-9\\9-9.cpp*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-30T08:46:24.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "9-8.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-8\\9-8.cpp",
+              "RelativeDocumentMoniker": "9-8\\9-8.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-8\\9-8.cpp",
+              "RelativeToolTip": "9-8\\9-8.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-30T08:43:42.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "9-7.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-7\\9-7.cpp",
+              "RelativeDocumentMoniker": "9-7\\9-7.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-7\\9-7.cpp",
+              "RelativeToolTip": "9-7\\9-7.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-30T08:27:12.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "9-6.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-6\\9-6.cpp",
+              "RelativeDocumentMoniker": "9-6\\9-6.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-6\\9-6.cpp",
+              "RelativeToolTip": "9-6\\9-6.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-30T07:51:19.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "9-5.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-5\\9-5.cpp",
+              "RelativeDocumentMoniker": "9-5\\9-5.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-5\\9-5.cpp",
+              "RelativeToolTip": "9-5\\9-5.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-30T07:40:12.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "9-4.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-4\\9-4.cpp",
+              "RelativeDocumentMoniker": "9-4\\9-4.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-4\\9-4.cpp",
+              "RelativeToolTip": "9-4\\9-4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-30T07:21:48.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "9-3.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-3\\9-3.cpp",
+              "RelativeDocumentMoniker": "9-3\\9-3.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-3\\9-3.cpp",
+              "RelativeToolTip": "9-3\\9-3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-30T06:01:56.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "9-2.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-2\\9-2.cpp",
+              "RelativeDocumentMoniker": "9-2\\9-2.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-2\\9-2.cpp",
+              "RelativeToolTip": "9-2\\9-2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-30T05:54:32.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "9-1.cpp",
+              "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-1\\9-1.cpp",
+              "RelativeDocumentMoniker": "9-1\\9-1.cpp",
+              "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\9-1\\9-1.cpp",
+              "RelativeToolTip": "9-1\\9-1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-30T05:35:13.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "challenge.cpp",
               "DocumentMoniker": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\Challenge\\challenge.cpp",
               "RelativeDocumentMoniker": "Challenge\\challenge.cpp",
               "ToolTip": "D:\\work\\C\u002B\u002B\\cppPractices\\prac9\\Challenge\\challenge.cpp",
               "RelativeToolTip": "Challenge\\challenge.cpp",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAGoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAQwNMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-27T07:47:03.999Z",
               "EditorCaption": ""
