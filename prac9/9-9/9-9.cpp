@@ -75,19 +75,21 @@ public:
 
 int main()
 {
-	Printer printers[3];
+	Printer* printers[3];
 	int printerCounts = 2;
 
 
-	printers[1] = InkjetPrinter("Office jet V40" , "HP", 5, 10);
-	printers[2] = LaserPrinter("SCX-6X45" , "삼성전자", 3, 20);
+	printers[1] = new InkjetPrinter("Office jet V40" , "HP", 5, 10);
+	printers[2] = new LaserPrinter("SCX-6X45" , "삼성전자", 3, 20);
 
 	cout << "현재 작동중인 " << printerCounts << "대의 프린터는 아래와 같다\n";
+	printers[1]->show();
+	printers[2]->show();
 
 	while (true)
 	{
-		printers[1].show();
-		printers[2].show();
+		
+		cout << '\n';
 
 		int printerNum;
 		int pages;
@@ -95,11 +97,14 @@ int main()
 		cout << "프린터(1:잉크젯, 2:레이저)와 매수 입력>>";
 		cin >> printerNum >> pages;
 
-		printers[printerNum].print(pages);
+		printers[printerNum]->print(pages);
+
+		printers[1]->show();
+		printers[2]->show();
 
 		char ans;
 
-		cout << "계속 하시겠습니까?";
+		cout << "계속 하시겠습니까?(y/n)";
 
 		cin >> ans;
 
