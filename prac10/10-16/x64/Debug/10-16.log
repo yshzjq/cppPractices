@@ -1,0 +1,3 @@
+﻿  10-16.cpp
+x64\Debug\Rect.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+  10-16.vcxproj -> D:\GIt\cppPractices\prac10\x64\Debug\10-16.exe
